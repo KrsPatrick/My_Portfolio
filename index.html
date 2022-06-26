@@ -1,0 +1,387 @@
+<!-- HELLO
+-
+DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
+Created by Anil Seervi.
+-
+GitHub repo: https://github.com/AnilSeervi/DevFolio
+README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
+-
+Have fun creating your portfolio on this template!!! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title: add your Portfolio websites's title here -->
+    <title>Patrick Lesiewicz | Developer</title>
+
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="KrsPatrick, Patrick Lesiewicz, javascript" />
+
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="Patrick Lesiewicz | Developer" />
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://devfolio.js.org/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="Patrick Lesiewicz | Developer" />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+    <!-- <meta property="og:description" content="Made using DevFolio Template" /> -->
+    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+    <meta
+      property="og:image"
+      content="https://devfolio.js.org/assets/devfolio.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <!-- Again fill content attr with the URL of this portfolio you'll host -->
+    <meta property="twitter:url" content="https://devfolio.js.org" />
+    <!-- Recommended to use the same text used within <title> element -->
+    <meta property="twitter:title" content="[Your name here] | Developer" />
+    <!-- short description that shows up while your portfolio is shared -->
+    <meta
+      property="twitter:description"
+      content="Made using DevFolio Template"
+    />
+    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+    <meta
+      property="twitter:image"
+      content="https://anilseervi.vercel.app/assets/devfolio.png"
+    />
+
+    <!-- link tags -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    
+    
+    <script src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+    <!-- Remove Google Analytics once you have your portfolio website set-up -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-122228201-4");
+    </script>
+    <!-- End of Google Analytics -->
+  </head>
+  <body>
+    <!-- **** Hero Section **** -->
+    <div id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title" class="load-hidden">
+          Hi, my name is <span class="text-color-main">Patrick Lesiewicz</span>
+          <br />
+          I'm a Developer.
+        </h1>
+        <p class="hero-cta" class="load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Tell me more</a
+          >
+        </p>
+      </div>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/me.jpg"
+                
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info">
+              <h2 class="about-title about-wrapper__info big">Hi There</h2>
+              <h3 class="second-title about-wrapper__info">I´m glad to see you!</h3>
+              <p class="about-wrapper__info-text">
+                On this webpage you can see a little bit of my Work. 
+                And if you like it there is also a Form where you can send me a message!
+              </p>
+              <p class="about-wrapper__info-text">
+                
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/Patrick Lesiewicz englisch.pdf"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Nasa Mission Control</h3>
+                <div>
+                  <p class="mb-4">
+                    This Site is a Nasa Mission Control Dashboard based on real NASA and Space X data.
+                    It´s made with react for the Frontend and Node.js for the Backend. For the database i got MongoDB.
+                    And for deployment i used Docker and Amazons EC2.
+
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="http://3.89.221.54:8000/launch"
+                >
+                  See Live
+                </a>
+                <!-- <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://krspatrick.github.io/Background-Generator/"
+                >
+                  Source Code
+                </a> -->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a rel="noreferrer" href="http://3.89.221.54:8000/launch" target="_blank">
+                  <div data-tilt class="thumbnail rounded js-tilt">
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/Nasa.PNG"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+          
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">RoboBuddys</h3>
+                <div>
+                  <p class="mb-4">
+                    This is a little Website called RoboBuddys. It was created with React.
+                    These cool Robots you can see comes from a site called <a href="https://robohash.org/">robohash.org</a>.
+                    And with the searchbar in there you can search for you best RobboBuddy.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://krspatrick.github.io/RoboBuddys/"
+                >
+                  See Live
+                </a>
+                <!-- <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a> -->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a rel="noreferrer" href="https://krspatrick.github.io/RoboBuddys/" target="_blank">
+                  <div data-tilt class="thumbnail rounded js-tilt">
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/RobboBuddys.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Portfolio Site</h3>
+                <div>
+                  <p class="mb-4">
+                    Here you can see another Portfolio Site. Just a little bit simpler.                
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://krspatrick.github.io/Portfolio/"
+                >
+                  See Live
+                </a>
+                <!-- <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://krspatrick.github.io/Portfolio/"
+                >
+                  Source Code
+                </a> -->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a rel="noreferrer" href="https://krspatrick.github.io/Portfolio/" target="_blank">
+                  <div data-tilt class="thumbnail rounded js-tilt">
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/black-portfolio.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+          
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">If you like it send me a mail and lets work together!</p>
+          <a href="mailto:lesiewicz.patrick@gmail.com" class="cta-btn cta-btn--resume">Send Mail</a>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <!-- <a
+            href="#!"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="twitter"
+          >
+            <i class="fa fa-twitter"></i>
+          </a> -->
+          <!-- <a
+            href="#!"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="instagram"
+          >
+            <i class="fa fa-instagram"></i>
+          </a> -->
+          <!-- <a
+            href="#!"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="codepen"
+          >
+            <i class="fa fa-codepen"></i> -->
+          <!-- </a> -->
+          <a
+            href="https://www.linkedin.com/in/patrick-lesiewicz-1004a41a3/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/KrsPatrick"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa fa-github"></i>
+          </a>
+        </div>
+        <hr />
+        <!-- <p class="footer__text">
+          &copy; <span id="year"></span> - Template by
+          <a
+            href="https://github.com/AnilSeervi"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Anil Seervi</a
+          >. <br />Made with &hearts;
+        </p> -->
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
